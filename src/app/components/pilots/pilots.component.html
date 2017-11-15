@@ -1,0 +1,10 @@
+<div class="container pilots">
+        <h1>Pilots</h1>
+        <div class="pilot" *ngFor="let pilot of pilots">
+            <h2>{{pilot.title}}</h2>
+            <p>{{pilot.startDate}} to {{pilot.endDate}}</p>
+            <p>{{pilot.ratings}} ratings </p>
+            <p>{{pilot.shares}} shares </p>
+        </div>
+        <p><a href='/'>Home</a></p>
+</div>
